@@ -1,0 +1,6 @@
+[virtualenvs]
+# Create virtualenv inside project directory
+in-project = true
+
+# Don't create virtualenv if one is already activated
+create = true
