@@ -10,12 +10,15 @@ def setup_logger(name: str = "research_agent", level: str = "") -> logging.Logge
     """Configure and return a logger instance with consistent formatting.
 
     Args:
+    ----
         name: The name of the logger
         level: The logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
                 If None, defaults to INFO
 
     Returns:
+    -------
         logging.Logger: Configured logger instance
+
     """
     # Create logger
     logger = logging.getLogger(name)

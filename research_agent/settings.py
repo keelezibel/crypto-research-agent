@@ -46,8 +46,10 @@ class OpenAISettings:
     def api_key(self) -> str:
         """Get the OpenAI API key.
 
-        Returns:
+        Returns
+        -------
             str: The OpenAI API key from settings.
+
         """
         return settings.openai_api_key
 
@@ -59,8 +61,10 @@ class AnthropicSettings:
     def api_key(self) -> str:
         """Get the Anthropic API key.
 
-        Returns:
+        Returns
+        -------
             str: The Anthropic API key from settings.
+
         """
         return settings.anthropic_api_key
 
@@ -72,7 +76,9 @@ class LoggerSettings:
     def level(self) -> str:
         """Get the logging level.
 
-        Returns:
+        Returns
+        -------
             str: The configured logging level from settings.
+
         """
         return settings.log_level
